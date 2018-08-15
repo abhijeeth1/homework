@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="javascript.css">
+  
+  
+  
+    <script>
+  
+    
+  
+     function singnUp(){
+
+
+       var value1= document.getElementById("txt1").value;
+  
+       var value2= document.getElementById("txt2").value;
+
+       var value3= document.getElementById("txt3").value;
+
+       var value4= document.getElementById("text4").value;
+  
+      document.getElementById("para1").innerHTML=value1;
+  
+      document.getElementById("para2").innerHTML=value2;
+
+      document.getElementById("para3").innerHTML=value3;
+
+      document.getElementById("para4").innerHTML=value4;
+  
+    }
+</script>
+
+</head>
+
+<body>
+    <h3>1.creat signup form</h3>
+    <div>
+        <p> SIGNUP FORM</p>
+
+<div class="main-container">
+
+
+YOUR USERNAME<br><input type="text" name="" id="txt1"><BR></BR>
+
+YOUR EMAIL ID<br><input type="text" name="" id="txt2"><BR></BR>
+
+YOUR PASSWORD<br><input type="text" name="" id="txt3"><BR></BR>
+
+please confirm your password<br><input type="text"name id="text4">
+<br>
+
+<br>
+<input type="button" value="SIGNUP" onclick="singnUp()" />
+<p id="para1"></p>
+
+<p id="para2"></p>
+
+<p id="para3"></p>
+
+<p id="para4"></p>
+</div>
+
+</div>
+</head>
+<body>
+   
+</body>
+</html>
